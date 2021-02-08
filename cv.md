@@ -23,3 +23,11 @@ Backend:
 General:  
 - git, Github, bitbucket  
 - npm  
+
+### Work Experience  
+
+### Education  
+
+### English level  
+A2  
+In 2013 I had been visiting english courses, called NewTone, for about one year.The main feature is you do not have to use your native language and speak only English during the lesson.English level

@@ -7,24 +7,100 @@ body {
   padding: 0px;
 }
 
-.wrapper {
-  width: 980px;
-  margin: 0 auto;
-  background-color: rgb(240, 240, 240);
-  padding: 20px 20px;
+h2, h3 {
+  margin: 0;
 }
 
-.header__container {
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 780px;
+  margin: 0 auto;
+  background-color: rgb(248, 248, 248);
+  box-shadow: 0px 0px 10px rgb(37, 37, 37);
+}
+
+.container {
   display: flex;
 }
 
+.left-column {
+  width: 35%;
+  background-color: rgb(70, 70, 70);
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+}
+
+.right-column {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  padding: 0px 20px;
+}
+
 .avatar {
-  width: 200px;
-  height: 200px;
-  padding-right: 50px;
+  width: 150px;
+  height: 150px;
 }
 
 .avatar__image {
   width: 100%;
   border-radius: 50%;
+}
+
+.contacts {
+  color: #fff;
+}
+
+.contacts__list p {
+  margin: 8px 0px;
+}
+
+.contacts__list a {
+  color: #fff;
+}
+
+.location__label::before {
+  content: url('../assets/icons/location.svg');
+  color: #fff;
+  padding-right: 5px;  
+}
+
+.email__label::before {
+  content: url('../assets/icons/envelop.svg');
+  color: #fff;
+  padding-right: 5px;  
+}
+
+.linkedin__label::before {
+  content: url('../assets/icons/linkedin2.svg');
+  padding-right: 5px;
+  transform: translateY(-10px);
+  stroke: rgb(248, 246, 246);
+   fill: rgb(253, 253, 255); 
+}
+
+.telegram {
+  margin-top: 10px;
+}
+
+.telegram__label::before {
+  content: url('../assets/icons/telegram.svg');
+  padding-right: 5px;
+  color: #fff;
+}
+
+.skills {
+  color: #fff;
 }

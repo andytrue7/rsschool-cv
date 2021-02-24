@@ -10,86 +10,136 @@
 <body>
   <div class="wrapper">
     <header class="header">
-      <div class="header__container">
-        <div class="avatar">
-          <img src="images/avatar.jpg" class="avatar__image" alt="">
+      <div class="container">
+        <div class="left-column">
+          <div class="avatar">
+            <img src="images/avatar1.jpeg" class="avatar__image" alt="avatar">
+          </div>
         </div>
-        <div class="header__info">
-          <h1>Andrey Trubchaninov</h1>
-          <h3>Junior JS developer</h3>
+        <div class="right-column">
+          <div class="header__info">
+            <h1>Andrey Trubchaninov</h1>
+            <h2>Junior JS developer</h2>
+          </div>
         </div>
       </div>
     </header>
-    <section class="contacts">
-      <h2>Contacts</h2>
-      <ul>
-        <li><strong>location:</strong> Kyiv, Ukraine</li>
-        <li><strong>email:</strong> univer1857@gmail.com</li>
-        <li><a href="https://www.linkedin.com/in/andrey-trubchaninov/"><strong>linkedIn</strong></a></li>
-      </ul>
-    </section>
-    <section class="about-me">
-      <h2>About me</h2>
-      <p>
-        I have been learning programming for a bit more than 1 year. 
-        My main goal is to become a professional web-developer. 
-        During my styding process I improve my skills using modern developers tools and programming languages features. 
-        I consider that today is quite important not to restrict yourself that is why I learn a frontend side as well as backend side of web-developing. 
-        Speaking about my personal qualities, I am fast learner and try to know something new every day.
-      </p>
-    </section>
-    <section class="skills">
-      <h2>Skills</h2>
-      <div class="skills__frontend">
-        <h3>Front-end</h3>
-        <ul>
-          <li>HTML, CSS </li>
-          <li>JS (ES6+) </li>
-        </ul>
+    <main class="container">
+      <div class="left-column">
+        <div class="content">
+          <section class="contacts">
+            <div class="contacts__info">
+              <h2 class="contacts__title">Contacts</h2>
+              <hr>
+              <ul class="contacts__list">
+                <li class="location">
+                  <strong class="location__label">location:</strong> 
+                  <p>Kyiv, Ukraine</p>
+                </li>
+                <li class="email">
+                  <strong class="email__label">email:</strong> 
+                  <p>univer1857@gmail.com</p>
+                </li>
+                <li class="linkedin">
+                  <a href="https://www.linkedin.com/in/andrey-trubchaninov/">
+                    <strong class="linkedin__label">linkedIn</strong>
+                  </a>
+                </li>
+                <li class="telegram">
+                  <strong class="telegram__label">telegram:</strong> 
+                  <p>@andrewtrue</p>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="skills">
+            <h2>Skills</h2>
+            <hr>
+            <div class="skills__frontend">
+              <h3>Front-end</h3>
+              <ul>
+                <li> 
+                  <div>HTML, CSS</div>
+                  <progress max="100" value="30"></progress>
+                </li>
+                <li> 
+                  <div>JS (ES6+)</div>
+                  <progress max="100" value="20"></progress>
+                </li>
+              </ul>
+            </div>
+            <div class="skills__backend">
+              <h3>Back-end</h3>
+              <ul>
+                <li>
+                  <div>PHP</div>
+                  <progress max="100" value="20"></progress>
+                </li>
+              </ul>
+            </div>
+            <div class="skills__general">
+              <h3>General</h3>
+              <ul>
+                <li>
+                  git, GitHub, BitBucket
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
       </div>
-      <div class="skills__backend">
-        <h3>Back-end</h3>
-        <ul>
-          <li>PHP</li>
-        </ul>
+      <div class="right-column">
+        <div class="content">
+          <section class="experience">
+            <h2>Work Experience</h2>
+            <hr>
+            <p>I don`t have any commerce experience yet</p>
+          </section>
+          <section class="education">
+            <h2>Education</h2>
+            <hr>
+            <ul>
+              <li>
+                <em>May-September, 2020</em>
+                <p>Binary Studio Academy</p>
+              </li>
+              <li>
+                <em>2012-2018</em>
+                <p>East Ukrainian National University of V.Dahl</p>
+              </li>
+            </ul>
+          </section>
+          <section class="portfolio">
+            <h2>Portfolio</h2>
+            <hr>
+            <ul>
+              <li><a href="https://github.com/andytrue7">Github</a></li>
+              <li><a href="https://bitbucket.org/andytrue7">BitBucket</a></li>
+            </ul>
+          </section>
+          <section class="about-me">
+            <h2>About me</h2>
+            <hr>
+            <p> 
+              Speaking about my personal qualities, I am fast learner, hard working, polite, curious. I prefer self-education and  try to know something new every day.
+            </p>
+          </section>
+          <section class="english-level">
+            <h2>English Level</h2>
+            <hr>
+              <ul>
+                <li><strong>level:</strong> A2</li>
+                <li>
+                  <strong>ways of learning:</strong>
+                  In 2013 I had been visiting english courses, called NewTone, for about one year.
+                  The main feature is you do not have to use your native language and speak only English during the lesson. 
+                  Also I use different mobile apps to learn English every day.
+                </li>
+              </ul>
+          </section>
+        </div>
       </div>
-      <div class="skills__general">
-        <h3>General</h3>
-        <ul>
-          <li>
-            git, GitHub, BitBucket
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="experience">
-      <h2>Work Experience</h2>
-    </section>
-    <section class="education">
-      <h2>Education</h2>
-      <ul>
-        <li>
-          <em>May-September, 2020</em>
-          <p>Binary Studio Academy</p>
-        </li>
-        <li>
-          <em>2012-2018</em>
-          <p>East Ukrainian National University of V.Dahl</p>
-        </li>
-      </ul>
-    </section>
-    <section class="english-level">
-      <h2>English Level</h2>
-        <ul>
-          <li><strong>level:</strong> A2</li>
-          <li>
-            <strong>ways of learning:</strong>
-            In 2013 I had been visiting english courses, called NewTone, for about one year.
-            The main feature is you do not have to use your native language and speak only English during the lesson. 
-            Also every day I use different mobile apps to learn English.
-          </li>
-        </ul>
-    </section>
+    </main>
   </div>
 </body>
 </html>

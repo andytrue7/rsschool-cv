@@ -104,3 +104,12 @@ a {
 .skills {
   color: #fff;
 }
+
+.footer {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.footer a::after {
+ content: url(../assets/icons/github.svg);
+}
